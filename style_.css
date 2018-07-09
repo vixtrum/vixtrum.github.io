@@ -1,0 +1,253 @@
+*{
+	border-radius: 20px;
+	margin-right: 20px;
+	margin-bottom:20px;
+	margin-top: 20px; 
+	
+}
+
+body{
+	text-align: center;
+	line-height: 1.5em;
+	background-image: url("images/gplaypattern.png");
+	border-radius: 20px;
+	margin-right: 20px;
+	margin-bottom:20px;
+	margin-top: 20px; 
+	
+}
+section{
+	border-radius: 15px 50px;
+	margin:  100px 100px 100px 100px;
+	padding: 100px;
+	
+}
+article h3,article h4,article h5{
+	font-size: 30px;
+
+}
+
+
+
+article{
+	clear: both;
+	font-family: 'Cinzel', serif;
+	margin:  50px;
+	padding: 40px;
+	background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  	background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+ 	color:transparent;
+ 	-webkit-background-clip: text;
+ 	background-clip: text;
+
+}
+
+
+
+table{
+	display: inline-block;
+	list-style-type: none;
+}
+
+   /*THIS IS A TEST*/
+.container{
+	
+	border:1px solid black;
+	
+}
+
+.intro_img img{
+
+	position: relative;
+	border:2px solid black;
+	
+}
+
+.hello{
+
+	font-family: 'Cinzel', serif;
+	position: absolute;
+	top: 0;
+	font-size: 50px;
+	text-decoration:underline;
+	font-size: 40px;
+	background: white;
+	opacity: 0.5;
+	position: absolute;
+	padding: 40px;
+	line-height: 12px;
+
+}
+.name{
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 40px;
+	background: white;
+	opacity: 0.5;
+	position: absolute;
+	padding: 40px;
+	text-align: center;
+}
+
+.comment{
+	font-size: 30px;
+	text-align-last: justify;
+	line-height: 1.6;
+}
+
+.about-me ul img{
+ 	width: 30px;
+ 	height: 30px;
+ 	display: inline-block;
+ 	border:0px;
+ 	
+ }   
+
+.gallery{
+	font-family: 'Tangerine', cursive;
+	font-size: 40px;
+	text-decoration: underline;
+	border:0;
+
+
+}
+
+.vibes{
+	font-family: 'Cinzel', serif;
+	border:2px groove rebeccapurple;
+	font-size: 30px;
+}
+
+
+
+.about-me{
+	font-family: 'Cinzel', serif;
+	font-size: 20px;
+}
+
+.about-me img{
+	border-radius: 5px;
+	border:1px groove rebeccapurple;
+
+	
+}
+
+/*THIS IS A TEST*/
+.test-text {
+	font-size: 40px;
+	background: white;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	padding: 40px;
+}
+
+footer{
+	font-size: 20px;
+}
+
+
+.nav{
+
+	float: right;    
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    padding: 0px;
+    font-size: 50px;
+    font-family: 'Tangerine', cursive;
+	}
+
+
+
+.center{
+	position: absolute;
+	left: 50%
+	top:50%;
+	transform: translate(-50%,-50%);
+
+}
+	
+.button{
+
+	background-color: yellow;
+	padding: 20px;
+	text-transform: uppercase;
+	text-decoration:none;
+	border-bottom: 2px solid red;
+	border-right: 2px solid orangered;
+}
+
+.button:hover{
+	background-color: rebeccapurple;
+	color: white;
+	transition: background-color 1s;
+}
+
+.aside img{
+	width: 70px;
+	height: 65px;
+	text-align: right;
+}
+
+.aside ul{
+	list-style-type: none!important;
+ 	position: fixed;
+ 	left:0;
+ 	top:200px;
+ 	padding-left:10px;
+ 	list-style: none;
+	background-color: rgb(255, 255, 255,0.5);
+	display: inline;
+	border-radius: 15px 50px;
+	margin-top:0;
+	margin-bottom:0px!important;
+	margin-right: 0!important;
+	width: 50px;
+
+
+ 	 	
+ }
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+  transition: background-color 0.7s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
